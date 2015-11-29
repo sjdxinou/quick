@@ -2,12 +2,13 @@ package cn.sjd.it.quick.modules.user.vo.req;
 
 import java.io.Serializable;
 
+
 public class UserReq implements Serializable {
 
 	private static final long serialVersionUID = -4556944522465697428L;
 
 	private String id;
-
+	
 	private String userName;
 
 	private String userPwd;

@@ -30,28 +30,6 @@
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 	
-	<!-- 上下文设置-->
-	<filter>
-		<filter-name>contextFilter</filter-name>
-		<filter-class>cn.jquick.core.web.filter.ContextFilter</filter-class>
-		<!-- TODO 需要配置排除规则 -->
-	</filter>
-	<filter-mapping>
-		<filter-name>contextFilter</filter-name>
-		<url-pattern>/*</url-pattern>
-	</filter-mapping>
-	
-	<!-- 资源过滤 -->
-	<filter>
-		<filter-name>resourceFilter</filter-name>
-		<filter-class>cn.jquick.core.web.filter.ResourceFilter</filter-class>
-	</filter>
-	<filter-mapping>
-		<filter-name>resourceFilter</filter-name>
-		<url-pattern>/*</url-pattern>
-	</filter-mapping>
-
-	
 	<!-- 日志记录 -->
 	<context-param>
 		<!-- 日志配置文件路径 -->
