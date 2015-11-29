@@ -34,6 +34,19 @@
 	</properties>
 	<!-- jar包 -->
 	<dependencies>
+		<!-- validator验证 -->
+		<dependency>
+			<groupId>commons-validator</groupId>
+			<artifactId>commons-validator</artifactId>
+			<version>1.4.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>5.2.1.Final</version>
+		</dependency>
+
 		<!-- 实体属性复制 -->
 		<dependency>
 			<groupId>commons-beanutils</groupId>
